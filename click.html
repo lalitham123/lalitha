@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+*{
+	margin:0px;
+	padding:0px;
+}
+#aside{
+	width:297px;
+	float:left;
+	border:1px solid #000;
+	overflow:hidden;
+}
+#aside #text{
+	overflow:hidden;
+}
+#aside h2{
+	padding-left:19px;
+	font-family:Myriad Pro;
+	line-height:41px;
+	font-weight:100;
+}
+#aside #text h5{
+	border-top:1px solid #000;
+	line-height:41px;
+	font-size:17px;
+	padding:0 26px 0 14px;
+	font-family:Myriad Pro;
+	font-weight:100;
+}
+#aside #text h5 span{
+	float:right;
+	font-weight: bold;
+}
+#show,#show1,#show2,#show3,#show4{
+	display:none;
+	
+}
+</style>
+</head>
+<body>
+<script>
+function change(){
+		document.getElementById("show").style.display="block";
+		document.getElementById("show1").style.display="none";
+		document.getElementById("show2").style.display="none";
+		document.getElementById("show3").style.display="none";
+		document.getElementById("show4").style.display="none";
+		
+	}
+function change1(){
+		document.getElementById("show").style.display="none";
+		document.getElementById("show1").style.display="block";
+		document.getElementById("show2").style.display="none";
+		document.getElementById("show3").style.display="none";
+		document.getElementById("show4").style.display="none";
+		
+	}
+	function change2(){
+		document.getElementById("show").style.display="none";
+		document.getElementById("show1").style.display="none";
+		document.getElementById("show2").style.display="block";
+		document.getElementById("show3").style.display="none";
+    	document.getElementById("show4").style.display="none";
+
+		
+	}
+		function change3(){
+		document.getElementById("show").style.display="none";
+		document.getElementById("show1").style.display="none";
+		document.getElementById("show2").style.display="none";
+		document.getElementById("show3").style.display="block";
+		document.getElementById("show4").style.display="none";
+		
+	}	
+	function change4(){
+		document.getElementById("show").style.display="none";
+		document.getElementById("show1").style.display="none";
+		document.getElementById("show2").style.display="none";
+		document.getElementById("show3").style.display="none";
+		document.getElementById("show4").style.display="block";
+
+	}
+	function hide(){
+		
+		document.getElementById("show").style.display="none";
+		}
+	function hide1(){
+		
+		document.getElementById("show1").style.display="none";
+	
+		
+	}function hide2(){
+		
+		document.getElementById("show2").style.display="none";
+	
+		
+	}
+	function hide3(){
+		
+		document.getElementById("show3").style.display="none";
+	
+		
+	}
+	function hide4(){
+		
+		document.getElementById("show4").style.display="none";
+	
+		
+	}
+	
+</script>
+ 
+<div id="aside">
+<h2>Facaulty facilities</h2>
+<div id="text">
+<h5 onclick="change()">responsibilities<span>+</span></h5>
+<div id="show" onclick="hide()">
+
+generic family - a group of font families with a similar look (like "Serif" or "Monospace")
+font family - a specific font family (like "Times New Roman" or "Arial")
+Generic family	Font family	Description
+Serif	Times New Roman
+Georgia	Serif fonts have small lines at the ends on some characters
+Sans-serif	Arial
+Verdana	"Sans" means without - these fonts do not have the lines at the ends of characters
+Monospace	Courier New
+Lucida Console	All monospace characters have the same width
+Note	Note: On computer screens, sans-serif fonts are considered easier to read than serif fonts.
+Font Family
+The font family of a text is set with the font-family property.
+</div>
+
+<h5 onclick="change1()">Special Fields of Knowledge<span>+</span><br /></h5>
+<div id="show1" onclick="hide1()">
+
+generic family - a group of font families with a similar look (like "Serif" or "Monospace")
+font family - a specific font family (like "Times New Roman" or "Arial")
+Generic family	Font family	Description
+Serif	Times New Roman
+Georgia	Serif fonts have small lines at the ends on some characters
+Sans-serif	Arial
+Verdana	"Sans" means without - these fonts do not have the lines at the ends of characters
+Monospace	Courier New
+Lucida Console	All monospace characters have the same width
+Note	Note: On computer screens, sans-serif fonts are considered easier to read than serif fonts.
+Font Family
+The font family of a text is set with the font-family property.
+</div>
+<h5 onclick="change2()">Research Interests<span>+</span><br /></h5>
+<div id="show2" onclick="hide2()">
+
+The CSS font properties define the font family, boldness, size, and the style of a text.
+generic family - a group of font families with a similar look (like "Serif" or "Monospace")
+font family - a specific font family (like "Times New Roman" or "Arial")
+Generic family	Font family	Description
+Serif	Times New Roman
+Georgia	Serif fonts have small lines at the ends on some characters
+Sans-serif	Arial
+Verdana	"Sans" means without - these fonts do not have the lines at the ends of characters
+Monospace	Courier New
+Lucida Console	All monospace characters have the same width
+Note	Note: On computer screens, sans-serif fonts are considered easier to read than serif fonts.
+
+</div>
+<h5 onclick="change3()">Achievement<span>+</span><br /></h5>
+<div id="show3" onclick="hide3()">
+The CSS font properties define the font family, boldness, size, and the style of a text.
+generic family - a group of font families with a similar look (like "Serif" or "Monospace")
+font family - a specific font family (like "Times New Roman" or "Arial")
+Generic family	Font family	Description
+Serif	Times New Roman
+Georgia	Serif fonts have small lines at the ends on some characters
+Sans-serif	Arial
+Verdana	"Sans" means without - these fonts do not have the lines at the ends of characters
+Monospace	Courier New
+Lucida Console	All monospace characters have the same width
+Note	Note: On computer screens, sans-serif fonts are considered easier to read than serif fonts
+</div>
+<h5 onclick="change4()">Books Published<span>+</span><br /></h5>
+<div id="show4" onclick="hide4()">
+The CSS font properties define the font family, boldness, size, and the style of a text.
+generic family - a group of font families with a similar look (like "Serif" or "Monospace")
+font family - a specific font family (like "Times New Roman" or "Arial")
+Generic family	Font family	Description
+Serif	Times New Roman
+Georgia	Serif fonts have small lines at the ends on some characters
+Sans-serif	Arial
+Verdana	"Sans" means without - these fonts do not have the lines at the ends of characters
+Monospace	Courier New
+Lucida Console	All monospace characters have the same width
+Note	Note: On computer screens, sans-serif fonts are considered easier to read than serif fonts
+</div>
+</div>
+</div>
+</body>
+</html>
